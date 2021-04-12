@@ -1,0 +1,122 @@
+
+.app {
+  width: 100%;
+  padding-left: 10%;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 50%;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.right {
+  width: 30%;
+  background-color: #fff;
+}
+
+.header{
+  width: 100%;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.header-table{
+  width: 80%;
+}
+
+.text-search{
+  width: 50%;
+}
+
+.text-search input{
+  width: 90%;
+  height: 27px;
+  font-size: .9em;
+  text-transform: capitalize;
+}
+
+.date-sort{
+  width: 50%;
+}
+
+.date-sort input{
+  width: 35%;
+  margin-left: 10px;
+  height: 29px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border: 0px;
+  border-bottom: 1px #444 solid;
+  font-size: .9em;
+}
+
+.date-sort :nth-child(2){
+  margin-left: 15%;
+}
+
+.search-button{
+  background-color: #000;
+  color: #fff;
+  border: 0px;
+  width: 120px;
+  height: 30px;
+  text-transform: uppercase;
+}
+
+.hero{
+  width: 100%;
+}
+
+.hero :nth-child(3){
+  float: left;
+  padding: 10px;
+  color: #f4f4f4;
+}
+
+.hero :nth-child(4){
+  float: right;
+  padding: 10px;
+  color: #f4f4f4;
+}
+
+.hero img{
+  width: 100%;
+}
+
+.hero h3{
+  padding-left: 10px;
+}
+
+.hero p{
+  padding-left: 10px;
+}
+
+.hero .link{
+  margin-left: 10px;
+
+}
+
+.ruler{
+  height: 1px;
+  background-color: #f6f6f6;
+  border: 0px;
+}
+
+.article{
+  width: 40%;
+  display: inline-block;
+  height: 210px;
+  margin: 20px;
+  position: relative;
+}
+
+.article img{
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
